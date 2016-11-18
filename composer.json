@@ -1,0 +1,26 @@
+{
+  "name": "sergej-kurakin/jenkins-pipeline",
+  "description": "Test with Jenkins Pipeline",
+  "license": "MIT",
+  "keywords": ["jenkins", "pipeline"],
+  "authors": [
+    {
+      "name": "Sergej Kurakin",
+      "email": "sergej@kurakin.info"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "5.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SergejKurakin\\Foo\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\SergejKurakin\\Foo\\": "tests/"
+    }
+  }
+}
