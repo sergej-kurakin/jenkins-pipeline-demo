@@ -1,7 +1,6 @@
 <?php
 namespace SergejKurakin\Foo;
 
-
 class Something
 {
 
